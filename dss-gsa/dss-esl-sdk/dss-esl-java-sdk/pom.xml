@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>dss-esl-sdk</artifactId>
+        <groupId>gov.dss.esl.sdk</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>DSS eSignLive Java SDK Module</name>
+    <artifactId>dss-esl-java-sdk</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    
+	<properties>
+	   <sdk.version>10.10.1</sdk.version>
+	</properties>
+
+    <build>
+        <plugins>
+        </plugins>
+    </build>
+
+    <dependencies>
+	   <!-- eSignLive Dependency -->
+	   <dependency>
+	      <groupId>com.silanis.esl</groupId>
+	      <artifactId>sdk</artifactId>
+	      <version>${sdk.version}</version>
+	   </dependency>
+    </dependencies>
+</project>
